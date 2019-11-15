@@ -30,3 +30,5 @@ sudo nvidia-smi -i 1 -pl (Power Limit) GPU2
 # Tensorboard
 
 $ tensorboard --logdir='./logs' --port=6006
+
+http://localhost:6006/ 
