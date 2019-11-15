@@ -27,6 +27,6 @@ If you have multiple GPUs:
 sudo nvidia-smi -i 0 -pl (Power Limit) GPU1
 sudo nvidia-smi -i 1 -pl (Power Limit) GPU2
 
-Tensorboard
+# Tensorboard
 
 $ tensorboard --logdir='./logs' --port=6006
