@@ -39,6 +39,8 @@ tensorboard --logdir=runs
 
 localhost:   # in broser
 
+https://github.com/lanpa/tensorboardX/blob/master/docs/tutorial.rst
+
 # TypeError: __init__() got an unexpected keyword argument 'pipeline'
 
 python setup.py develop(In your project directory)
