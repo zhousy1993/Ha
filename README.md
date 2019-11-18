@@ -33,6 +33,12 @@ $ tensorboard --logdir='./logs' --port=6006
 
 http://localhost:6006/ 
 
+cd /home/zsy/PycharmProjects/tensorboardX
+
+tensorboard --logdir=runs
+
+localhost:   # in broser
+
 # TypeError: __init__() got an unexpected keyword argument 'pipeline'
 
 python setup.py develop(In your project directory)
