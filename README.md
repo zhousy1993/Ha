@@ -1,5 +1,8 @@
 # utils
 
+# Tutorials
+https://www.programiz.com/python-programming/first-program
+https://www.runoob.com/w3cnote/python-func-decorators.html
 
 # Killing all python processes
 for i in $(sudo lsof /dev/nvidia0 | grep python  | awk '{print $2}' | sort -u); do kill -9 $i; done
