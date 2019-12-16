@@ -47,3 +47,7 @@ https://github.com/lanpa/tensorboardX/blob/master/docs/tutorial.rst
 
 python setup.py develop(In your project directory)
 
+# Create soft links
+
+ln -s source/links object/links
+
