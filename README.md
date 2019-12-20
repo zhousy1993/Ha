@@ -7,6 +7,12 @@ https://www.runoob.com/w3cnote/python-func-decorators.html
 # Create a bootable ubuntu 16.04 usb
 https://vitux.com/how-to-create-a-bootable-usb-stick-from-the-ubuntu-terminal/
 
+# all cuda version & installation tutorial
+https://tech.amikelive.com/node-859/installing-cuda-toolkit-9-2-on-ubuntu-16-04-fresh-install-install-by-removing-older-version-install-and-retain-old-version/#fresh-install
+
+https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/
+
+
 # Killing all python processes
 for i in $(sudo lsof /dev/nvidia0 | grep python  | awk '{print $2}' | sort -u); do kill -9 $i; done
 
