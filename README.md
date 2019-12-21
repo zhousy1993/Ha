@@ -20,6 +20,11 @@ export PATH=/usr/local/cuda-9.2/bin${PATH:+:${PATH}}
 
 export LD_LIBRARY_PATH=/usr/local/cuda-9.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 
+# try to launch anaconda-navigator
+
+source ~/anaconda3/bin/activate root
+anaconda-navigator
+
 
 # Killing all python processes
 for i in $(sudo lsof /dev/nvidia0 | grep python  | awk '{print $2}' | sort -u); do kill -9 $i; done
