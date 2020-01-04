@@ -67,6 +67,12 @@ localhost:   # in broser
 
 https://github.com/lanpa/tensorboardX/blob/master/docs/tutorial.rst
 
+AttributeError: 'module' object has no attribute 'FileWriter'
+
+I saw there is some api change, probably to do with tf 2.0. This is working for me in tf 2.0:
+
+train_writer = tf.summary.create_file_writer('./logs/1/train')
+
 # TypeError: __init__() got an unexpected keyword argument 'pipeline'
 
 python setup.py develop(In your project directory)
