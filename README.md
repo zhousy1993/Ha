@@ -22,6 +22,8 @@ export LD_LIBRARY_PATH=/usr/local/cuda-9.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY
 
 # try to launch anaconda-navigator
 
+source /home/zhousy/anaconda3/bin/activate
+
 source ~/anaconda3/bin/activate root
 anaconda-navigator
 
