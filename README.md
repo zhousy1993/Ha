@@ -27,6 +27,15 @@ source /home/zhousy/anaconda3/bin/activate
 source ~/anaconda3/bin/activate root
 anaconda-navigator
 
+# add anaconda python path to the bashrc file
+
+vi ~/.bashrc
+
+export PATH="$PATH:/home/username/anaconda3/bin"
+
+:wq
+
+source ~/.bashrc
 
 # Killing all python processes
 for i in $(sudo lsof /dev/nvidia0 | grep python  | awk '{print $2}' | sort -u); do kill -9 $i; done
