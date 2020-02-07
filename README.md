@@ -90,3 +90,19 @@ python setup.py develop(In your project directory)
 
 ln -s source/links object/links
 
+
+# Github push
+
+1.git init
+2.git config user.name "someone"
+3.git config user.email "someone@someplace.com"
+4.git add *
+5.git commit -m "some init msg"
+
+git init
+git config user.name "zhousy1993"
+git config user.email "zhousiyao1993@gmail.com"
+git add *
+git commit -m "initial commit"
+
+git push origin master
