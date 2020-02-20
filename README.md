@@ -114,3 +114,33 @@ git add *
 git commit -m "initial commit"
 
 git push origin master
+
+# Problem of login loop after Ubuntu update
+
+1. ctrl + alt + F3
+
+2. sudo service lightdm stop  # for the problem of exit X server
+
+3. cd ~/Downloads 
+
+4. ./ runfile.run  # may use chmod +x ./ runfile.run
+
+5. vi /etc/modprobe.d/blacklist-nouneau.conf  # for the problem of unable to load the kernel module 'nvidia.ko'
+
+blacklist nouveau
+
+blacklist lbm-nouveau
+
+options nouveau modeset=0
+
+alias nouveau off
+
+alias lbm-nouveau off
+
+echo options nouveau modeset=0 | sudo tee -a /etc/modprobe.d/nouveau-kms.conf
+
+update-initramfs -u
+
+reboot
+
+6. sudo service lightdm start
