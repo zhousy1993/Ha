@@ -144,3 +144,13 @@ update-initramfs -u
 reboot
 
 6. sudo service lightdm start
+
+# Install teamviewer
+
+use gdebi to install, before installing gdebi, open software update in ubuntu setting follow this 
+
+https://askubuntu.com/questions/140246/how-do-i-resolve-unmet-dependencies-after-adding-a-ppa
+
+sudo apt install gdebi
+
+sudo gdebi teamviewer_.deb
