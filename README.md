@@ -154,3 +154,7 @@ https://askubuntu.com/questions/140246/how-do-i-resolve-unmet-dependencies-after
 sudo apt install gdebi
 
 sudo gdebi teamviewer_.deb
+
+# mount the disk for ubuntu
+
+https://medium.com/@sh.tsang/partitioning-formatting-and-mounting-a-hard-drive-in-linux-ubuntu-18-04-324b7634d1e0
