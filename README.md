@@ -7,6 +7,9 @@ https://www.runoob.com/w3cnote/python-func-decorators.html
 # Create a bootable ubuntu 16.04 usb
 https://vitux.com/how-to-create-a-bootable-usb-stick-from-the-ubuntu-terminal/
 
+# install nvidia graphic drivers on ubuntu16.04
+https://tech.amikelive.com/node-731/how-to-properly-install-nvidia-graphics-driver-on-ubuntu-16-04/
+
 # all cuda version & installation tutorial
 https://tech.amikelive.com/node-859/installing-cuda-toolkit-9-2-on-ubuntu-16-04-fresh-install-install-by-removing-older-version-install-and-retain-old-version/#fresh-install
 
