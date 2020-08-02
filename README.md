@@ -15,6 +15,9 @@ https://tech.amikelive.com/node-859/installing-cuda-toolkit-9-2-on-ubuntu-16-04-
 
 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/
 
+sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub
+
+
 # cuda9.2 runfile
 
 https://developer.nvidia.com/cuda-92-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=runfilelocal
