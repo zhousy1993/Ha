@@ -4,6 +4,13 @@
 https://www.programiz.com/python-programming/first-program
 https://www.runoob.com/w3cnote/python-func-decorators.html
 
+# symbolic link and mount
+
+ln -s source_file myfile
+
+mount --bind <olddir> <mountpoint>
+  
+
 # Create a bootable ubuntu 16.04 usb
 https://vitux.com/how-to-create-a-bootable-usb-stick-from-the-ubuntu-terminal/
 
